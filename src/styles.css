@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.country-search {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+}
+
+.country-list li {
+  padding: 5px 0;
+}
+
+.country-info img {
+  margin-top: 10px;
+}

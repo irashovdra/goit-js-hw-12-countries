@@ -1,0 +1,21 @@
+{
+  "homepage": "https://irashovdra.github.io/hw-12-countries/",
+  "name": "hw-12-countries",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html --no-cache",
+    "predeploy": "npm run build",
+    "build": "parcel build ./src/index.html --no-cache --public-url /hw-12-countries/",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0"
+  }
+}
